@@ -6,6 +6,11 @@
     z-index: 111111111;
 }
 
+.logo_sizing{
+    width: 30%;
+    height: 30%;
+}
+
 .navbar_container{
     width: 80%;
     margin:  0 auto;

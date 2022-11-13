@@ -35,6 +35,10 @@
     gap: 1rem;
 }
 
+.category_box_title_info h4{
+    font-size: 0.8rem;
+}
+
 .category_box_title span{
     font-size: 3rem;
     margin-top: 1rem;

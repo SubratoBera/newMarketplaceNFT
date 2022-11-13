@@ -7,14 +7,14 @@ import Style from "./Category.module.css";
 import images from "../../img";
 
 const Category = () => {
-  const CategoryArray = [1, 2, 3, 4, 5, 6];
+  const CategoryArray = [images.creatorbackground1, images.creatorbackground10, images.creatorbackground5, images.creatorbackground11, images.creatorbackground2, images.creatorbackground4];
   return (
     <div className={Style.box_category}>
       <div className={Style.category}>
         {CategoryArray.map((el, i) => (
           <div className={Style.category_box} key={1 + 1}>
             <Image
-              src={images.creatorbackground1}
+              src={el}
               className={Style.category_box_img}
               alt="Background image"
               width={350}
@@ -27,7 +27,7 @@ const Category = () => {
                 <BsCircleFill />
               </span>
               <div className={Style.category_box_title_info}>
-                <h4>Enterainment</h4>
+                <h4>Entertainment</h4>
                 <small>1995 NFTS</small>
               </div>
             </div>
